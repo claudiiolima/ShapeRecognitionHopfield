@@ -31,13 +31,21 @@ Start to predict...
 Show prediction results...
 ```
 
-<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/imgs/result.png" width=30%>
+<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/Resultados/square.png" width=30%>
+
+or
+
+<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/Resultados/triangle.png" width=30%>
+
+or
+
+<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/Resultados/circle.png" width=30%>
 
 ```bash
 Show network weights matrix...
 ```
 
-<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/img/tmp/weights.png" width=50%>
+<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/img/tmp/weights.png" width=50%>
 
 ## PyPaint
 
