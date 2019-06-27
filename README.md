@@ -4,7 +4,8 @@ Hopfield network implemented with Python. Two update rules are implemented: **As
 
 ## Requirement
 
-- Python >= 3.5
+- Python3     for  _train.py
+- Python2.7   for example.py
 - numpy
 - matplotlib
 - tqdm
