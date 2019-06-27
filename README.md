@@ -1,6 +1,6 @@
 # ShapeRecognition
 
-Hopfield network implemented with Python. Two update rules are implemented: **Asynchronous** & **Synchronous**.
+Hopfield network implemented with Python.
 
 ## Requirement
 
@@ -20,24 +20,6 @@ Run `_train.py`.
 
 ### _train.py
 
-The following is the result of using **Synchronous** update.
-
-```bash
-Start to data preprocessing...
-Start to train weights...
-100%|██████████| 4/4 [00:06<00:00,  1.67s/it]
-Start to predict...
-100%|██████████| 4/4 [00:02<00:00,  1.80it/s]
-Show prediction results...
-```
-
-<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/imgs/result.png" width=50%>
-
-```bash
-Show network weights matrix...
-```
-
-<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/imgs/weights.png" width=50%>
 The following is the result of using **Asynchronous** update.
 
 ```bash
@@ -49,13 +31,13 @@ Start to predict...
 Show prediction results...
 ```
 
-<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/imgs/result.png" width=30%>
+<img src="https://github.com/claudiiolima/ShapeRecognitionHopfield/blob/master/imgs/result.png" width=30%>
 
 ```bash
 Show network weights matrix...
 ```
 
-<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/imgs/weights.png" width=50%>
+<img src="https://github.com/claudiiolima/ShapeRecognition/blob/master/img/tmp/weights.png" width=50%>
 
 ## PyPaint
 
@@ -63,16 +45,15 @@ Is an application for drawing.
 
 ### The Usage
 
-For now run `PyPaint/exemplo.py`
+For now run `PyPaint/example.py`
 
 ## The Idea
 
 Is to make this two app, become one, the Hopfield Network would be on background of PyPaint only print your results.
-HN and PyPaint juntos e shallow now.
 
 ### How it will Work?
 
-The PyPaint will have a signal that call a slot, from time to time, that saves an image of drawing. That image will send to HN that will have an answer to draw.
+The PyPaint will have a signal that call a slot, from time to time, that saves an image of drawing. That image will send to HN via thread execution that will have an answer to draw.
 
 ## Reference
 
